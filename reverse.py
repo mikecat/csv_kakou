@@ -90,7 +90,7 @@ try:
 			if headerNum is not None:
 				raise Exception("multiple --header")
 			if i + 1 >= argc:
-				raise Exception("missing header count missing")
+				raise Exception("missing header count")
 			i += 1
 			headerNum = int(argv[i])
 			if headerNum < 0:
